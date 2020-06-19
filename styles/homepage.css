@@ -32,13 +32,13 @@
 .testimonial-wrapper {
     background-color: #8B687F;
     color: #cbcbcb;
-    height: 450px;
+    height: 100%;
 }
 
 .news-wrapper {
     background-color: #8B687F;
     color: #cbcbcb;
-    height: 250px;
+    height: 100%;
 }
 
 .news-wrapper > .news-heading {
@@ -64,7 +64,7 @@
 
 .testimonial-wrapper > .testimonial-content > .testimonial-image img {
     padding: 30px;
-    width: 300px;
+    width: 100px;
     height: 100%;
     border-radius: 50px;
 }
