@@ -1,0 +1,84 @@
+.navigation-wrapper {
+    height: 50px;
+    background-color: #7B435B;
+    color: #cbcbcb;
+    padding: 60px 20px;
+    /* Flexbox container */
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+/*Column Styles */
+.links-wrapper > .nav-link a {
+    font-family: 'Ubuntu Condensed', sans-serif;
+    color: white;
+}
+
+
+.navigation-wrapper > .links-wrapper > .banner-image img {
+    width: 150px;
+    height: 100%;
+}
+
+.links-wrapper {    
+    display: flex;
+    justify-content: space-between;
+}
+.links-wrapper > .nav-link {
+    width: 100px;
+    text-align: center;
+}
+
+.links-wrapper > .nav-link a {
+    font-family:  "Ubuntu Condensed", sans-serif;
+    color: #cbcbcb;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+.links-wrapper > .nav-link a:hover {
+    color: #F7A072;
+    letter-spacing: 2px;
+}
+
+/* Contact */
+.contact-wrapper > .contact-bg > .contact-link a {
+    color: #cbcbcb;
+    transition: 0.5s;
+    text-decoration: none;
+    font-size: 2em;
+}
+
+.contact-wrapper > .contact-heading {
+    background-color: #8B687F;
+    color: #cbcbcb;
+    font-size: 1.5em;
+    padding: 10px 15px;
+    border-bottom: 10px solid #0FA3B1;
+}
+
+.contact-bg {
+    border-top: 10px solid #0FA3B1;
+    background-image: url("../images/backgrounds/temporarycontactpic.jpg");
+    height:600px;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.contact-wrapper > .contact-bg > .contact-link {
+    padding: 40px 15px;
+    background-color: #0FA3B1;
+    margin: 20px 40px 20px 40px;
+    transition: 0.2s;
+}
+
+.contact-wrapper > .contact-bg > .contact-link:hover {
+    letter-spacing: 5px;
+}
+
+.contact-wrapper > .contact-bg > .contact-link a:hover {
+    color: #F7A072;
+}
